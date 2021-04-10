@@ -1,24 +1,35 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+=============================================
+開発環境
+=============================================
 
-Things you may want to cover:
+ruby 2.6.3
+Rails 6.0.3.6
 
-* Ruby version
+=============================================
+Docker 環境構築編
+=============================================
 
-* System dependencies
+【Docker 環境作成中の自分用メモ】
+・Yarn install関係うまくいかない時は、
 
-* Configuration
+Config / Webpacker .ymlの
+  check_yarn_integrity: false
 
-* Database creation
+にしたらうまくいったでござる
 
-* Database initialization
 
-* How to run the test suite
+・Pg 関係のインストールが」うまくいかない時はローカル環境に
+Pgをインストールしてから
+docker-compose build --no-cache
+でうまくいった
 
-* Services (job queues, cache servers, search engines, etc.)
+参考にしたサイト
+・作成済みのRails サービスをDockerにのっける
+https://qiita.com/kenz-dev/items/b9e716204e0cd0cea447
 
-* Deployment instructions
+・Docker Rails 6環境構築
+https://qiita.com/me-654393/items/ac6f61f3eee66380ecd7
 
-* ...
+=============================================
