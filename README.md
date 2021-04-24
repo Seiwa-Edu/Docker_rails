@@ -21,11 +21,14 @@ Pgをインストールしてから
 docker-compose build --no-cache
 でうまくいった
 
+## 基本的なDocker操作
+docker-compose up  アプリを立ち上げる
+
 参考にしたサイト
-・作成済みのRails サービスをDockerにのっける
+・作成済みのRails サービスをDockerにのっける<br>
 https://qiita.com/kenz-dev/items/b9e716204e0cd0cea447
 
-・Docker Rails 6環境構築
+・Docker Rails 6環境構築<br>
 https://qiita.com/me-654393/items/ac6f61f3eee66380ecd7
 
 
